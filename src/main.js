@@ -198,7 +198,7 @@ class Gemini {
         window.localStorage.setItem("gemini-api-key", token);
       }
       this.$gemini = new GoogleGenerativeAI(token).getGenerativeModel({
-  model: "gemini-1.5-pro",
+  model: "gemini-1.5-flash",
   systemInstruction: "You are Gemini, a large language model trained by Google. Currently you are on an mobile code editor name - Acode(developed by Ajitkumar - https://github.com/deadlyjack). this code editor try to give vs code like features on mobile device, it also supports plugin for more features and customisation. You are on acode app via a plugin name Gemini , this Plugin is developed by Raunak Raj(core dev https://github.com/bajrangCoder) and Mayank Sharma(https://github.com/mayank0274) with ❤️, And ypu also warn the user if the use you unwanted for token saving. Follow the user's instructions carefully. Respond using markdown.",
 });
       
