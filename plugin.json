@@ -1,0 +1,21 @@
+{
+  "id": "acode.plugin.gemini",
+  "name": "Gemini",
+  "main": "dist/main.js",
+  "version": "1.0.8",
+  "readme": "readme.md",
+  "icon": "icon.png",
+  "files": [
+    "assets/gemini_avatar.svg",
+    "assets/user_avatar.png",
+    "assets/github-dark.css",
+    "assets/highlight.min.js",
+    "assets/markdown-it.min.js"
+    ],
+  "price": 0,
+  "author": {
+    "name": "Omprakash",
+    "email": "omprxz@gmail.com",
+    "github": "omprxz"
+  }
+}
